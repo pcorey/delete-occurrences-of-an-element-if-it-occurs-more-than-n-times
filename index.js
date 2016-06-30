@@ -1,3 +1,6 @@
 export function deleteNth(arr,x){
-    return [];
+    if (x == 0) {
+        return [];
+    }
+    return arr;
 }
