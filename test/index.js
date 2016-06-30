@@ -8,6 +8,7 @@ describe("deleteNth", function() {
         expect(deleteNth([1, 2], 0)).to.deep.equal([]);
 
         expect(deleteNth([1, 2], 1)).to.deep.equal([1, 2]);
+        expect(deleteNth([1, 1, 2], 1)).to.deep.equal([1, 2]);
     });
 
 });
