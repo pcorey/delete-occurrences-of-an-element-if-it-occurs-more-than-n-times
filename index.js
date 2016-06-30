@@ -1,3 +1,3 @@
-function deleteNth(arr,x){
-    // ...
+export function deleteNth(arr,x){
+    return [];
 }
