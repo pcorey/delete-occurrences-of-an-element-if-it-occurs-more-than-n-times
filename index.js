@@ -1,0 +1,3 @@
+function deleteNth(arr,x){
+    // ...
+}
